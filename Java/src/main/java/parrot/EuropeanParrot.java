@@ -8,4 +8,10 @@ public class EuropeanParrot extends Parrot
 		super(ParrotTypeEnum.EUROPEAN, numberOfCoconuts, voltage, isNailed);
 	}
 
+	@Override
+	public double getSpeed()
+	{
+		return getBaseSpeed();
+	}
+
 }
