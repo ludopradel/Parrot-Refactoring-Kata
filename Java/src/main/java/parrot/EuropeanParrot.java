@@ -3,9 +3,9 @@ package parrot;
 public class EuropeanParrot extends Parrot
 {
 
-	public EuropeanParrot(double voltage, boolean isNailed)
+	public EuropeanParrot()
 	{
-		super(ParrotTypeEnum.EUROPEAN, voltage, isNailed);
+		super(ParrotTypeEnum.EUROPEAN);
 	}
 
 	@Override
